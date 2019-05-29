@@ -1,0 +1,217 @@
+
+/*login Form CSS*/
+.login-body{
+     background-repeat: no-repeat;
+     object-fit: contain;
+     background-position: center;
+     border: none;
+     background:url(https://ak4.picdn.net/shutterstock/videos/19625314/thumb/1.jpg) no-repeat center top ;
+     height: 755px;
+     border: none;
+     filter: blur(2px);
+
+}
+#bgimage{
+      
+       filter: blur(0px);
+       max-width: 100%;
+       max-height: 100%;    
+      
+}
+
+.login-form {
+     vertical-align: middle;
+     left: 50%;
+     top:50%;
+     position: absolute;
+     height: 400px;
+     width: 350px;
+     margin:-180px 0px 0px -180px; 
+     border-radius: 5px 5px 5px 5px;
+     background-color:#ffffff;
+     box-shadow: 15px 10px 25px rgba(99,72,223,0.4);
+
+}
+#login-login-head {
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.login-login-username{
+    padding-left: 20px;
+    padding-bottom: 0px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.login-login-password{
+    padding-left: 20px;
+    padding-bottom: 0px;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.login-login-input{
+ padding-left: 20px;
+
+}
+
+ #login-input{
+     border-radius: 4px 4px 4px 4px;
+     width: 300px;
+     margin-top: 0px;
+     height: 35px;
+     border: 1px solid #ccc;
+ }
+ #text{
+    margin-top: 0px;
+    margin-bottom: 5px;
+ }
+ .login-login-box{
+    padding-top: 20px;
+ }
+ #login-login-submit{
+
+    padding-top: 50px;
+    padding-left: 125px;
+
+ }
+#submit{
+     border-radius: 4px 4px 4px 4px;
+     width: 100px;
+     height: 35px;
+     background-color: #00cc66;
+     cursor: pointer;
+     border: none;
+     position: relative;
+}
+#reg{
+    padding-left: 210px;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+#register{
+    margin-top: 15px;
+}
+
+
+/* Registration Form CSS */
+.reg-body{
+ background:url(../img/regbg.jpg) no-repeat ;
+ width: 100%;
+ height: 758px;
+ object-fit: ;
+ position: absolute;
+ /*top: 0px;*/
+ /*padding-top: 200px;*/
+}
+.reg-form{
+    border: 1px solid white;
+    width: 800px;
+    margin-left: 22%;
+    /*margin-top:12%;*/
+    position: relative;
+    opacity: 0.85;
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    border-radius: 4px 4px 4px 4px;
+    animation:fadein 5s;
+
+}
+
+/*.reg-form : hover{
+    animation: fadein 2s;}
+   
+}*/
+ @keyframes fadein{
+        from {opacity:0.3;}
+        to {opacity:0.85;}
+    }
+
+#txtreg{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+#txtname{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+#fname{
+    border-radius: 4px 4px 4px 4px;
+    width: 760px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+#lname{
+    border-radius: 4px 4px 4px 4px;
+    width: 760px;
+    height: 40px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+
+}
+
+.reg-form-fname{
+    padding-left: 15px;
+    margin-top: 0px;
+    /*padding-top: 10px;*/
+}
+.reg-form-lname{
+    padding-left: 15px;
+    margin-top: 0px;
+    /*padding-top: 10px;*/
+}
+.reg-form-dob{
+    margin-top: 20px;
+    padding-left: 15px;
+}
+#dob{
+    height: 40px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 4px 4px;
+     padding-left: 10px;
+     
+}
+#email
+{
+    height: 40px;
+   width: 760px;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 4px 4px;
+     padding-left: 10px;
+}
+.reg-form-email
+{
+     margin-top: 20px;
+     padding-left: 15px;  
+}
+.reg-form-password
+{
+     margin-top: 20px;
+     padding-left: 15px;  
+     padding-bottom: 25px; 
+}
+#passw
+{
+    height: 40px;
+    width: 760px;
+    border: 1px solid #ccc;
+    border-radius: 4px 4px 4px 4px;
+     padding-left: 10px;
+
+}
+.reg-form-submission
+{
+    margin-top: 20px;
+   
+}
+#submit
+{
+    background-color: #87ceeb;
+}
+
